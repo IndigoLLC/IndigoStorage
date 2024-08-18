@@ -47,7 +47,7 @@ local task=table.clone(task)
 local game=game -- game is game
 local oldGame=game
 
-local Version='1.0.0'
+local Version='1.1.0'
 
 local isDragging=false -- rconsole
 local dragStartPos=nil -- rconsole
@@ -1068,7 +1068,7 @@ funcs.syn_backup=funcs.syn
 
 
 funcs.getexecutorname=function()
- return 'Solaris', Version
+ return 'Indigo', Version
 end
 funcs.identifyexecutor=funcs.getexecutorname
 funcs.http_request=getgenv().request or funcs.request
